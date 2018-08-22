@@ -1,0 +1,15 @@
+May-07-2008
+###########
+:date: 2008-05-07 08:21
+:author: admin
+:category: MeetingNotes
+:slug: may-07-2008
+:status: published
+
+We met at \ `Rosken's Hall <http://www.unomaha.edu/pages/rh.html>`__,
+Room 402 on UNO's campus courtesy of Burch. Thanks Burch!
+
+-  Google App Engine by Jeff Hinrichs
+
+Jeff gave a presentation on the basics of Google App
+Engine\|\ http://code.google.com/appengine/]

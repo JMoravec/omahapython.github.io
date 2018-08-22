@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Answer for extract 5 digit zipcode numbers from tweets</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Omaha Python </a></h1>
+                <nav><ul>
+                    <li><a href="/category/code-meetingnotes-snippets.html">code, MeetingNotes, Snippets</a></li>
+                    <li><a href="/category/code-pythonapps.html">code, PythonApps</a></li>
+                    <li><a href="/category/info.html">info</a></li>
+                    <li><a href="/category/info-meetingnotes.html">info, MeetingNotes</a></li>
+                    <li><a href="/category/info-uncategorized-upcomingevents.html">info, Uncategorized, UpcomingEvents</a></li>
+                    <li><a href="/category/meetingnotes.html">MeetingNotes</a></li>
+                    <li><a href="/category/meetingnotes-upcomingevents.html">MeetingNotes, UpcomingEvents</a></li>
+                    <li><a href="/category/memberposts.html">MemberPosts</a></li>
+                    <li class="active"><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/uncategorized.html">Uncategorized</a></li>
+                    <li><a href="/category/upcomingevents.html">UpcomingEvents</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/answer-for-extract-5-digit-zipcode-numbers-from-tweets-2.html" rel="bookmark"
+           title="Permalink to Answer for extract 5 digit zipcode numbers from tweets">Answer for extract 5 digit zipcode numbers from tweets</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-02-10T22:10:00-06:00">
+                Published: Fri 10 February 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/omaha-python-users-group-opug.html">Omaha Python Users Group (OPUG)</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->      <div class="line-block">
+<div class="line">Thank you so much for your reply</div>
+<div class="line">the data is like:</div>
+<div class="line">City of Sun Valley 91352...City of Sun Valley 91352.....8911
+Driftstone Dr, Spring, TX 77379....Battery at 10601-10698.......</div>
+<div class="line">these are the tweets.&nbsp; i wanna extract only the 5 digit ZIPCodes in
+one column. tried the following:</div>
+<div class="line">&nbsp;&nbsp; zipcode=csv.reader(csvfile,delimiter=' ', quotechar='|')</div>
+<div class="line">&nbsp;&nbsp; &nbsp;for row in zipcode:</div>
+<div class="line">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;re.findall(r'(\d{5})', str(row))</div>
+<div class="line">it gives me result like:</div>
+<div class="line">column 1:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ['91352'] ['91352']&nbsp; ['77379']&quot;['10601'</div>
+<div class="line">column 2: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; '10698']&quot; ['91352'] ['91352']</div>
+<div class="line"><br /></div>
+<div class="line">plz look at the 2nd column where the zipcode 10601-10698 divided into
+2 column. i want each of the zipcodes in the same column but in the
+same row under zipcode name.</div>
+</div>
+<p>Just posted a photo &#64; City of Sun Valley 91352 <a class="reference external" href="https://t.co/F1br8SFo8j">https://t.co/F1br8SFo8j</a></p>
+<p>Just posted a photo &#64; City of Sun Valley 91352 <a class="reference external" href="https://t.co/tXR3ynr9K1">https://t.co/tXR3ynr9K1</a></p>
+<p>8911 Driftstone Dr, Spring, TX 77379, $174,750 4 beds, 2 baths
+<a class="reference external" href="https://t.co/w6Kjnur90V">https://t.co/w6Kjnur90V</a></p>
+<p>Just posted a photo &#64; City of Sun Valley 91352 <a class="reference external" href="https://t.co/hakE3Zfy9t">https://t.co/hakE3Zfy9t</a></p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

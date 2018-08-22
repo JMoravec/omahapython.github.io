@@ -1,0 +1,14 @@
+March-16-2009
+#############
+:date: 2009-04-15 14:03
+:author: admin
+:category: MeetingNotes
+:slug: march-16-2009
+:status: published
+
+Topics:
+-------
+
+-  `pysftp <http://code.google.com/p/pysftp/>`__ - secure ftp module
+-  Lightning Talks
+-  Group Q and A session

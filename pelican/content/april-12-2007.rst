@@ -1,0 +1,128 @@
+April-12-2007
+#############
+:date: 2007-04-12 23:53
+:author: admin
+:category: MeetingNotes
+:tags: MeetingNotes
+:slug: april-12-2007
+:status: published
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+First Off, a big thank you to Jay and Reboot The User for allowing us to
+have our meeting at Reboot The User. It worked out very well - nice
+seeing your code on a 50" display! Jay also supplied the Internet access
+too.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+While the meeting was small, I consider it to be successful. We talked a
+little bit about `PyCon <http://www.python.org/pycon/>`__ and then moved
+on to the email2rss project. There was discussion on the two major
+packages used, libgmail and
+`PyRSS2Gen <http://www.dalkescientific.com/Python/PyRSS2Gen.html>`__
+module. You can see the outcome of the email2rss.py project at
+http://www.dundeemt.com/rss/omaha-rss.xml (*editors note: feed no longer
+works now that we switched backends*)Which is a RSS feed of the User
+Group mail list.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+Other elements of the project discussed were:
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+-  slices
+-  pickle module
+-  option parsing
+-  pylint
+-  editors (`Komodo
+   Edit/IDE <http://www.activestate.com/Products/komodo_ide/>`__ and
+   `SciTE <http://www.scintilla.org/SciTE.html>`__)
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+There was an open discussion about Python in the work place. The
+consensus seemed to be small skunk-work projects were ideal for
+introducing the language. Python's ability to sling data and ability to
+integrate with sysadmin type scripts make it ideal for this type of
+assault.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+The wiki, mailing list and flyer were shown. Until the need presents
+itself, we will continue to use the resources provided by the PSF. In
+fact, there is an effort through the Python Advocacy group to enhance
+user group resources. Go Advocacy!
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+There was discussion of the rumored ~Google-Plex / Council Bluffs. It
+was agreed that this would be a good thing for the metro IT community if
+it is true. Council Bluffs, IA sits across the Missouri River from
+Omaha. A number of our members work in Council Bluffs.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+Pizza and Pop were provided by Dundee Media & Technology. Be sure to
+mail the list with requests for toppings and flavors for the next
+meeting, as DM&T will sponsoring the food and beverages for the meeting.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+Source: OmahaPythonUserGroup - `PythonInfo
+Wiki <http://wiki.python.org/moin/OmahaPythonUserGroup>`__
+
+.. raw:: html
+
+   </div>

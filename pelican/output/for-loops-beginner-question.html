@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>for loops - beginner question</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Omaha Python </a></h1>
+                <nav><ul>
+                    <li><a href="/category/code-meetingnotes-snippets.html">code, MeetingNotes, Snippets</a></li>
+                    <li><a href="/category/code-pythonapps.html">code, PythonApps</a></li>
+                    <li><a href="/category/info.html">info</a></li>
+                    <li><a href="/category/info-meetingnotes.html">info, MeetingNotes</a></li>
+                    <li><a href="/category/info-uncategorized-upcomingevents.html">info, Uncategorized, UpcomingEvents</a></li>
+                    <li><a href="/category/meetingnotes.html">MeetingNotes</a></li>
+                    <li><a href="/category/meetingnotes-upcomingevents.html">MeetingNotes, UpcomingEvents</a></li>
+                    <li><a href="/category/memberposts.html">MemberPosts</a></li>
+                    <li class="active"><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/uncategorized.html">Uncategorized</a></li>
+                    <li><a href="/category/upcomingevents.html">UpcomingEvents</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/for-loops-beginner-question.html" rel="bookmark"
+           title="Permalink to for loops - beginner question">for loops - beginner question</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-02-19T16:52:00-06:00">
+                Published: Sun 19 February 2017
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/omaha-python-users-group-opug.html">Omaha Python Users Group (OPUG)</a>
+        </address>
+<p>In <a href="/category/misc.html">misc</a>.</p>
+
+</footer><!-- /.post-info -->      <div class="line-block">
+<div class="line">Greetings!</div>
+<div class="line">I have recently started Python as my first computer language and there
+is one part of the for loops I am having trouble with.</div>
+<div class="line">The objective of the code below is to turn a list [1,1,2,3,3,3,4,4,5]
+into a list with only the unique elements of the first list.
+[1,2,3,4,5] without the use of sets.</div>
+<div class="line"><em>code:</em></div>
+<div class="line">def unique_list(g):</div>
+<div class="line">&nbsp; &nbsp; &nbsp; x = [ ]</div>
+<div class="line">&nbsp; &nbsp; &nbsp; <strong>for</strong> a <strong>in</strong>&nbsp;g:</div>
+<div class="line">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **&nbsp;if** a <strong>not in</strong> x:</div>
+<div class="line">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x.append(a)</div>
+<div class="line">return x</div>
+<div class="line"><br /></div>
+<div class="line">I understand what each individual part of the code does but the part
+of &quot;<strong>for</strong> a&nbsp;<strong>in</strong>&nbsp;g&quot; is what confuses me. I know &quot;g&quot; is the list
+in reference but what is &quot;a&quot;? If it is the elements in &quot;g&quot; how can
+Python tell the difference of each element, if I had numbers and
+strings and symbols?</div>
+<div class="line"><br /></div>
+<div class="line">Also, the below section is confusing in the sense of what the role of
+&quot;a&quot; is and how does it know which to append? I get that if an &quot;a&quot;
+similar to another &quot;a&quot; is in the list it will not duplicate it but how
+does it know which &quot;a&quot; to append?</div>
+<div class="line"><em>code:</em></div>
+<div class="line"><strong>if</strong> a <strong>not in</strong> x:</div>
+<div class="line">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;x.append(a)</div>
+<div class="line"><br /></div>
+<div class="line">My apologies for the long post and I hope what I asked is
+understandable. Any help would be greatly appreciated!</div>
+<div class="line"><br /></div>
+<div class="line">All the best,</div>
+<div class="line"><br /></div>
+<div class="line">Nico</div>
+</div>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+April-02-2008
+#############
+:date: 2008-04-02 08:20
+:author: admin
+:category: MeetingNotes
+:slug: april-02-2008
+:status: published
+
+We met at \ `Rosken's Hall <http://www.unomaha.edu/pages/rh.html>`__,
+Room 402 on UNO's campus courtesy of Burch. Thanks Burch!
+
+-  BeautifulSoup by Eli Criffield
+-  Tkinter and PMW by Chad Homan
+
+Eli gave a great presentation on the basics
+of \ `BeautifulSoup <http://www.crummy.com/software/BeautifulSoup/>`__
+and used his \ `sipie <http://sourceforge.net/projects/sipie>`__ project
+and \ `ipython <http://ipython.scipy.org/moin/>`__ to help demonstrate
+the power brew which is BeautifulSoup.
+
+Chad gave a presentation about the advantages
+of \ `Tkinter <http://wiki.python.org/moin/TkInter>`__ on platforms with
+limited resources. He also demonstrated
+Python MegaWidgets - \ `PMW <http://pmw.sourceforge.net/>`__. PMW builds
+on Tkinter to provide things like tabs and notebook metaphors to UIs who
+use Tkinter.

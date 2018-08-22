@@ -1,0 +1,40 @@
+April-20-2009
+#############
+:date: 2009-04-20 22:46
+:author: admin
+:category: MeetingNotes
+:slug: april-20-2009
+:status: published
+
+Topics:
+-------
+
+-  `Django <http://www.djangoproject.com/>`__ is a high-level Python Web
+   framework that encourages rapid development and clean, pragmatic
+   design. and `Pinax <http://pinaxproject.com/>`__, a Django based
+   platform for rapidly developing websites - Charles Kaminski
+
+Charles led a lively discussion of his use of Pinax and Django while
+create `Emily's Project <http://204.26.91.74/>`__ Emily's Project is an
+effort to document pricing for different medicine's. As an example, a
+major retailer may offer DrugX for $4 and DrugY for $100, while another
+local outlet may offer DrugY for $28. Depending on your insurance or
+lack thereof, this can make a big difference in the amount of money you
+spend for medicine.
+
+Charles researched a number of platforms to use in building this project
+and had hoped to use a Python based solution. In his research on Django
+he came across Pinax. Pinax is Django but in an easy to use format and
+also with a number of Django apps that utilize the Pinax way of
+interoperability. That means they are very easy to make work with one
+another, leaving you to the work of developing your site, not figuring
+out the proper way to wire the two apps together. As examples, Charles
+showed off the Invite module. Invitations are a popular way of
+controlling the number of users as you progress from alpha -> beta ->
+gamma -> release. They've been used by Google and other sites with much
+success. Wiring in invitations on Emily's Project was as simple as
+enabling a module in Pinax. The same was true for the wiki component and
+logins.
+
+The demonstration also showed how easy it is to support multiple
+languages and databases.

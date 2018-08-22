@@ -1,0 +1,36 @@
+August-06-2008
+##############
+:date: 2008-08-06 08:31
+:author: admin
+:category: MeetingNotes
+:slug: august-06-2008
+:status: published
+
+.. raw:: html
+
+   <div>
+
+We met at \ `Rosken's Hall <http://www.unomaha.edu/pages/rh.html>`__,
+Room 402 on UNO's campus
+
+.. raw:: html
+
+   </p>
+
+Chad gave a presentation on his use of 3 third party modules in his
+current project.
+
+-  `pexpect <http://www.noah.org/wiki/Pexpect>`__ - a module for
+   interacting with interactive command line apps
+-  `Python MegaWidgets <http://pmw.sourceforge.net/>`__ - a toolkit for
+   building high-level compound widgets in Python using the Tkinter
+   module.
+-  `aes.py <http://www.josh-davis.org/pythonAES>`__ - an aes encryption
+   module
+
+Charles brought up the idea of the group taking on an open source
+project. More about this on the list.
+
+.. raw:: html
+
+   </div>

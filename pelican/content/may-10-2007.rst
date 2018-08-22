@@ -1,0 +1,34 @@
+May-10-2007
+###########
+:date: 2007-05-10 00:03
+:author: admin
+:category: MeetingNotes
+:slug: may-10-2007
+:status: published
+
+Well now, that was quite a meeting. We ended up not talking about any of
+the announced subjects so it was a very good
+meeting. \ `Eli <http://eli.criffield.net/>`__ made an appearance
+tonight and for a sysadmin who doesn't "program", Eli has produced some
+pretty interesting python
+projects. \ `sipie <http://freshmeat.net/projects/sipie/>`__, Pronounced
+SY PIE, like "sirius python", sipie is a command line player for Sirius
+online Internet streaming
+
+We also talked about using private certs and CA's, the different python
+based packages and use them with the \ `twisted
+framework <http://twistedmatrix.com/trac/>`__. Eli hammered out the
+details and did something with twisted that not many knew was possible.
+Thanks for sharing — Very Cool.
+
+As with previous meetings, kudos to Jay and Reboot The User for
+graciously donating the space for the gathering. The new executive
+conference room is nearing completion — we will be stylin' then. Also,
+props to Todd for covering the pizza guy before I got there. Pizza and
+Pop sponsored by DM&T.
+
+And finally, thanks to O'Reilly (Marsee) for the great door prize. Eli
+won the door prize, "Programming Python" by Mark Lutz.
+
+Source: \ `OmahaPythonUserGroup - PythonInfo
+Wiki <http://wiki.python.org/moin/OmahaPythonUserGroup>`__

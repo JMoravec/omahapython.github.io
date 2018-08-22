@@ -1,0 +1,53 @@
+July-20-2009
+############
+:date: 2009-07-21 01:18
+:author: admin
+:category: MeetingNotes
+:tags: MeetingNotes
+:slug: july-20-2009
+:status: published
+
+Tonight's meeting was a series of lightning talks on popular
+applications that were written in Python — in whole or in part. Some of
+the applications mentioned were:
+
+#. `Nagios <http://www.nagios.org/>`__ - a network monitoring
+   application
+#. `Python Redirector <http://pythondirector.sourceforge.net/>`__ - a
+   pure python TCP load balancer
+#. `Dropbox <http://www.getdropbox.com>`__ - rsync++ for the masses
+
+`Hubert
+Hickman <http://www.linkedin.com/pub/hubert-hickman/5/b6b/190>`__ Gave a
+talk and demonstration of the work he and his team are doing with Python
+at
+`UNMC <http://www.linkedin.com/companies/university-of-nebraska-medical-center>`__.\*
+
+Other Projects/Items mentioned at the meeting:
+
+-  `ShedSkin <http://shed-skin.blogspot.com/>`__ - An Optimizing
+   `Python-to-C <http://www.omahapython.org/#Python-to-C>`__\ ++
+   Compiler
+-  `MatPlotLib <http://matplotlib.sourceforge.net/>`__ - matplotlib is a
+   python 2D plotting library
+-  `wxPython <http://www.wxpython.org/>`__ /
+   `wxWidgets <http://www.wxwidgets.org/>`__ and `Robin
+   Dunn <http://alldunn.com/robin/>`__
+-  `Dive Into Python <http://diveintopython.org/>`__ - a learning
+   resource
+-  `The Python Tutorial <http://docs.python.org/tutorial/>`__ - a
+   learning resource
+-  `edna <http://edna.sourceforge.net/>`__ - a streaming mp3 server
+-  `Zenoss <http://www.zenoss.com/>`__ - a network monitoring
+   application
+-  `Python and
+   AI <http://us.pycon.org/2009/conference/schedule/event/71/>`__ -
+   Raymond Hettinger's AI talk at this years
+   `PyCon <http://www.omahapython.org/#PyCon>`__
+-  `neuralnet.py <http://code.google.com/p/shedskin/source/browse/trunk/examples/neuralnet.py?spec=svn739&r=739>`__
+   — Raymond's example code slightly refactored so
+   `ShedSkin <http://www.omahapython.org/#ShedSkin>`__ could compile it
+   for blazing fast speed.
+-  `Griffith <http://www.griffith.cc/>`__ - media collection manager
+-  `Anki <http://ichi2.net/anki/>`__ - Anki is a spaced repetition
+   system (SRS).

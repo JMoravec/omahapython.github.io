@@ -1,0 +1,88 @@
+June 21, 2010
+#############
+:date: 2010-06-21 20:34
+:author: Steve
+:category: MeetingNotes
+:tags: MeetingNotes
+:slug: june-21-2010
+:status: published
+
+.. raw:: html
+
+   <div>
+
+We had a good discussion on ways to build web applications using
+Python.  Most of the talk was on how
+`django <http://www.djangoproject.com/>`__\ handles different aspects,
+but also included `cherrypy <http://www.cherrypy.org/>`__,
+`turbogears <http://turbogears.org/>`__,
+`mod\_wsgi <http://code.google.com/p/modwsgi/>`__, and `google closure
+tools <http://code.google.com/closure/>`__.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+The Python Package Index, `PyPI <http://pypi.python.org/pypi>`__, which
+now has 10,290 packages was lauded a bit, along with the easy\_install
+method of adding packages with dependancies easily.
+`Virtualenv <http://pypi.python.org/pypi/virtualenv>`__\ was also
+mentioned as a way to build isolated Python environments on one machine.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+The question: *How to distribute Python programs?* was brought up, and
+`py2exe <http://www.py2exe.org/>`__\ was mentioned, but none of the
+attendees had much else to say. Please comment if you have another idea.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+Chad has found some programs that let you use Ubuntu to program your
+Harmony remote, and is considering building a gui in Python for them.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+Other related and interesting items were also mentioned:
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+A passing reference to `Johnny Drop Table <http://xkcd.com/327/>`__.\ `
+xmarks <http://www.xmarks.com/>`__- a bookmark, password, and open tab
+synchronizer\ `
+nosql <http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/nosql/Home%20Page>`__,
+`sqlite <http://www.sqlite.org/>`__ and the Firefox sqlite `manager
+google voice <http://www.google.com/voice>`__ and
+`reQuall <http://www.reqall.com/>`__- ways to help use your phone to
+automatically record messages and appointments
+
+.. raw:: html
+
+   </div>

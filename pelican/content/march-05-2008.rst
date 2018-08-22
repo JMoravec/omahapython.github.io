@@ -1,0 +1,43 @@
+March-05-2008
+#############
+:date: 2008-03-05 08:19
+:author: admin
+:category: MeetingNotes
+:slug: march-05-2008
+:status: published
+
+We met at \ `Rosken's Hall <http://www.unomaha.edu/pages/rh.html>`__,
+Room 402 on UNO's campus courtesy of Burch. Thanks Burch!
+
+Jeff gave a presentation on Elixir. Topics covered included defining
+objects/tables and relationships. Examples of queries, 1:n and m:n joins
+were also to be had. Talked then turned to projects that members were
+currently working on. We finished the meeting by talking about PyCon.
+There are 3 of us, that we know of, that will be attending PyCon this
+year.
+
+Topics:
+
+-  `elixir <http://elixir.ematia.de/>`__
+
+   -  `sqlalchemy <http://www.sqlalchemy.org/>`__
+      — the `ORM <http://en.wikipedia.org/wiki/Object-relational_mapping>`__
+      that elixir sits on.
+
+-  Lightning Talks
+-  `sqlite <http://docs.python.org/lib/module-sqlite3.html>`__
+-  `metakit <http://www.equi4.com/metakit/python.html>`__
+-  `twisted <http://twistedmatrix.com/trac/>`__
+-  `cherrypy <http://www.cherrypy.org/>`__
+
+-  Group Q and A session
+
+   -  `PyCon 2008 in Chicago <http://us.pycon.org/>`__
+
+The door prize for the meeting was, "`Python Pocket
+Reference <http://www.oreilly.com/catalog/pythonpr2/>`__"
+
+Thanks to everyone who attended.
+
+After the meeting we gathered
+at \ `Clancy's <http://www.clancysomaha.com/>`__ to socialize.

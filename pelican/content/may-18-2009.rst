@@ -1,0 +1,11 @@
+May-18-2009
+###########
+:date: 2009-06-09 22:50
+:author: admin
+:category: MeetingNotes
+:slug: may-18-2009
+:status: published
+
+This month's meeting was held at Lansky's. While this was a small
+gathering talk centered around current work in Python. Some Android
+coolness was shown and tidbits of python were found here and there.

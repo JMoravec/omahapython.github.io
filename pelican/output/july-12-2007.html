@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>July-12-2007</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Omaha Python </a></h1>
+                <nav><ul>
+                    <li class="active"><a href="/category/code-meetingnotes-snippets.html">code, MeetingNotes, Snippets</a></li>
+                    <li><a href="/category/code-pythonapps.html">code, PythonApps</a></li>
+                    <li><a href="/category/info.html">info</a></li>
+                    <li><a href="/category/info-meetingnotes.html">info, MeetingNotes</a></li>
+                    <li><a href="/category/info-uncategorized-upcomingevents.html">info, Uncategorized, UpcomingEvents</a></li>
+                    <li><a href="/category/meetingnotes.html">MeetingNotes</a></li>
+                    <li><a href="/category/meetingnotes-upcomingevents.html">MeetingNotes, UpcomingEvents</a></li>
+                    <li><a href="/category/memberposts.html">MemberPosts</a></li>
+                    <li><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/uncategorized.html">Uncategorized</a></li>
+                    <li><a href="/category/upcomingevents.html">UpcomingEvents</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/july-12-2007.html" rel="bookmark"
+           title="Permalink to July-12-2007">July-12-2007</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2007-07-12T00:55:00-05:00">
+                Published: Thu 12 July 2007
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/admin.html">admin</a>
+        </address>
+<p>In <a href="/category/code-meetingnotes-snippets.html">code, MeetingNotes, Snippets</a>.</p>
+
+</footer><!-- /.post-info -->      <p>The meeting opened up with lots of interesting rumors, speculation and
+general kibitzing about Google's plans for the new CB location. Who
+knows for sure&nbsp;—&nbsp;but lots of fun in the mean time.</p>
+<p>Jeff gave a presentation
+on&nbsp;<a class="reference external" href="http://crunchy.sourceforge.net/">Crunchy</a>. Talk about a gee
+whiz app. We poked at it with sticks
+and&nbsp;<a class="reference external" href="http://www.xfree86.org/current/xkill.1.html">xkill</a> to figure
+out how/who had control of the tkinter/wx/gtk windows.</p>
+<p>The graphics capabilities brought out some questions about graphing
+packages available to Python. Jeff recalled a recent blog entry by
+Fuzzyman a.k.a&nbsp;<a class="reference external" href="http://www.voidspace.org.uk/python/weblog/">Michael
+Foord</a> about him looking
+for a graphing package to use
+with&nbsp;<a class="reference external" href="http://www.voidspace.org.uk/python/weblog/arch_d7_2007_06_23.shtml#e753">IronPython</a>.
+A bit of googling and&nbsp;<a class="reference external" href="http://gnuplot.info/">gnuplot</a> was found.</p>
+<p>Next was a question about xml parsers from someone new to Python and
+while no one was definitive, we suggested that they look
+at&nbsp;<a class="reference external" href="http://docs.python.org/lib/module-xml.etree.ElementTree.html">elementtree</a>
+and&nbsp;<a class="reference external" href="http://codespeak.net/lxml/index.html">lxml</a></p>
+<p>The conversation then drifted towards web development. We had a java
+programmer in the group who has been recently been
+using&nbsp;<a class="reference external" href="http://www.djangoproject.com/">Django</a> and is becoming
+enamored with Python. We gabbed
+about&nbsp;<a class="reference external" href="https://storm.canonical.com/">storm</a> and news about how
+the&nbsp;<a class="reference external" href="http://turbogears.org/">TurboGears</a> had started
+implementing&nbsp;<a class="reference external" href="http://www.blueskyonmars.com/2007/06/27/turbogears-2-a-reinvention-and-back-to-its-roots/">TG2</a>
+as an abstraction on top of&nbsp;<a class="reference external" href="http://pylonshq.com/">Pylons</a>. There
+was also talk of&nbsp;<a class="reference external" href="http://www.modwsgi.org/">mod_wsgi</a> and how it is
+different than&nbsp;<a class="reference external" href="http://www.modpython.org/">mod_python</a>. Jeff
+shared a little bit about mod_wsgi's embedded and daemon modes he had
+picked up from Graham's recent&nbsp;<a class="reference external" href="http://blog.dscpl.com.au/2007/07/web-hosting-landscape-and-modwsgi.html">blog
+entry</a>.</p>
+<p>The talk then veered in
+to&nbsp;<a class="reference external" href="http://docs.python.org/ref/lambdas.html">lambda</a> and the java
+types whispered &quot;anonymous&quot; &lt;g&gt; This quickly veered in to discussion on
+how&nbsp;<a class="reference external" href="http://docs.python.org/ref/naming.html">binding</a> operates,
+which lead to an impromptu demonstration of passing a function as an
+argument to a function and how you assign a function to a dictionary
+element.</p>
+<pre class="literal-block">
+&gt;&gt;&gt; def f(x):
+...     return x*x
+...
+&gt;&gt;&gt; print f(2)
+4
+
+&gt;&gt;&gt; def g(fn,x):
+...   return apply(fn,[x])
+...
+&gt;&gt;&gt; g(f,2)
+4
+
+&gt;&gt;&gt; d={}
+&gt;&gt;&gt; d['foo']=f
+&gt;&gt;&gt; print d['foo'](2)
+4
+</pre>
+<p>As the meeting came to a close, we decided to change the meeting time
+from the 2nd Thursday of the month to the 1st Wednesday of the month. In
+the case that a holiday coincides with or is immediately adjacent to
+that day, the meeting will be held 1 week later on the second Tuesday.
+There was also a motion to move the meeting location and two locations
+were put up for consideration:</p>
+<div class="line-block">
+<div class="line">* Scooter's Java Express &#64; 120th and Blondo</div>
+<div class="line">* Student Union &#64; UNO's campus, 60th and Dodge</div>
+</div>
+<p>We will investigate these two locations and report back to the list for
+a vote by early next week.</p>
+<p>Brad S. won the Door Prize of &quot;Python in a Nutshell, 2nd Edition&quot;. Tom
+never contacted us to pick it up so he lost out from last month. Sorry
+Tom.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Omaha Python Users Group Meeting, Nov 21, 2011</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Omaha Python </a></h1>
+                <nav><ul>
+                    <li class="active"><a href="/category/code-meetingnotes-snippets.html">code, MeetingNotes, Snippets</a></li>
+                    <li><a href="/category/code-pythonapps.html">code, PythonApps</a></li>
+                    <li><a href="/category/info.html">info</a></li>
+                    <li><a href="/category/info-meetingnotes.html">info, MeetingNotes</a></li>
+                    <li><a href="/category/info-uncategorized-upcomingevents.html">info, Uncategorized, UpcomingEvents</a></li>
+                    <li><a href="/category/meetingnotes.html">MeetingNotes</a></li>
+                    <li><a href="/category/meetingnotes-upcomingevents.html">MeetingNotes, UpcomingEvents</a></li>
+                    <li><a href="/category/memberposts.html">MemberPosts</a></li>
+                    <li><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/uncategorized.html">Uncategorized</a></li>
+                    <li><a href="/category/upcomingevents.html">UpcomingEvents</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/omaha-python-users-group-meeting-nov-21-2011.html" rel="bookmark"
+           title="Permalink to Omaha Python Users Group Meeting, Nov 21, 2011">Omaha Python Users Group Meeting, Nov 21, 2011</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-11-22T09:56:00-06:00">
+                Published: Tue 22 November 2011
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/admin.html">admin</a>
+        </address>
+<p>In <a href="/category/code-meetingnotes-snippets.html">code, MeetingNotes, Snippets</a>.</p>
+
+</footer><!-- /.post-info -->      <p>Tonight's Meeting Topics:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.djangoproject.com/">Django</a></li>
+<li>Django and RESTful interfaces via
+<a class="reference external" href="https://bitbucket.org/jespern/django-piston/wiki/Home">Piston</a>
+and <a class="reference external" href="https://launchpad.net/django-xmlrpc">XML-RPC</a></li>
+<li>Message&nbsp;Queuing - specifically
+<a class="reference external" href="http://www.rabbitmq.com/">RabbitMQ</a>,
+<a class="reference external" href="http://activemq.apache.org/">ActiveMQ</a> and
+<a class="reference external" href="http://stomp.github.com/">STOMP</a>&nbsp;and the 5 primary <a class="reference external" href="http://www.rabbitmq.com/getstarted.html">usage
+patterns</a>.&nbsp; And
+integrating MQs in Django with
+<a class="reference external" href="http://celeryproject.org/">Celery</a>.</li>
+<li>We also had a &quot;follow me&quot; presentation on getting started with
+<a class="reference external" href="http://seleniumhq.org/">Selenium2</a>'s
+<a class="reference external" href="http://seleniumhq.org/docs/03_webdriver.html">webdriver</a>. &nbsp;The
+following are my notes on the presentation:</li>
+</ul>
+<pre class="literal-block">
+-- Selenium2 --
+
+Selenium RC vs Webdriver -
+Selenium - http://seleniumhq.org/
+         - http://seleniumhq.org/docs/03_webdriver.html
+Why - http://seleniumhq.org/docs/appendix_migrating_from_rc_to_webdriver.html
+
+Firefox, Chrome, Ie, iOS, Android, Opera
+
+-- Setting up an environment --
+  virtualenv --no-site-packages Se-Pres(entation)
+  cd Se-Pres
+  source bin/activate
+  easy_install selenium
+Now fire up an interpreter:
+  python
+  from selenium import webdriver
+  b = webdriver.Firefox()
+  b.get('http://www.google.com/')
+  b.page_source
+  dir(b)
+  b.name
+  b.get_cookies()   (a list of dicts, each containing a cookie and support info)
+  b.current_url
+
+&gt;&gt;&gt; b.find_element_by_name('q')
+&lt;selenium.webdriver.remote.webelement.WebElement object at 0x874b22c&gt;
+&gt;&gt;&gt; sbx = b.find_element_by_name('q')
+&gt;&gt;&gt; sbx.send_keys('omaha python')
+&gt;&gt;&gt; sbx.submit()
+&gt;&gt;&gt; b.title
+u'omaha python - Google Search'
+
+  b.find_element_by_name('foo')
+selenium.common.exceptions.NoSuchElementException
+
+-- Other Helpful things --
+unittest - http://docs.python.org/library/unittest.html#
+nose - http://readthedocs.org/docs/nose/en/latest/
+
+nose-testconfig - http://pypi.python.org/pypi/nose-testconfig/
+</pre>
+<p>The meeting concluded about 9pm when the venue closed but we continued
+with a 15 minute parking lot track that included references to <a class="reference external" href="http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670">Code
+Complete</a>
+and general development concepts. &nbsp;Great Meeting! and everyone is
+looking forward to the next.</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

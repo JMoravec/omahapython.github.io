@@ -1,0 +1,17 @@
+June-04-2008
+############
+:date: 2008-06-04 08:22
+:author: admin
+:category: MeetingNotes
+:slug: june-04-2008
+:status: published
+
+| !This month's meeting notes:
+| We met at [[Rosken's Hall\|http://www.unomaha.edu/pages/rh.html]],
+  Room 402 on UNO's campus courtesy of Burch. Thanks Burch!
+
+Jeff gave a presentation on the basics of `easy\_install &
+PyPI <http://docs.google.com/Presentation?id=dcfq8f6s_309rfqqrxx>`__
+
+Panesh (sorry if I misspelled your name) won the door prize, Python
+Cookbook.

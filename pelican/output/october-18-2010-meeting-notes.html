@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>October 18, 2010 Meeting Notes</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Omaha Python </a></h1>
+                <nav><ul>
+                    <li><a href="/category/code-meetingnotes-snippets.html">code, MeetingNotes, Snippets</a></li>
+                    <li><a href="/category/code-pythonapps.html">code, PythonApps</a></li>
+                    <li><a href="/category/info.html">info</a></li>
+                    <li><a href="/category/info-meetingnotes.html">info, MeetingNotes</a></li>
+                    <li><a href="/category/info-uncategorized-upcomingevents.html">info, Uncategorized, UpcomingEvents</a></li>
+                    <li class="active"><a href="/category/meetingnotes.html">MeetingNotes</a></li>
+                    <li><a href="/category/meetingnotes-upcomingevents.html">MeetingNotes, UpcomingEvents</a></li>
+                    <li><a href="/category/memberposts.html">MemberPosts</a></li>
+                    <li><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/uncategorized.html">Uncategorized</a></li>
+                    <li><a href="/category/upcomingevents.html">UpcomingEvents</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/october-18-2010-meeting-notes.html" rel="bookmark"
+           title="Permalink to October 18, 2010 Meeting Notes">October 18, 2010 Meeting Notes</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2010-10-19T12:22:00-05:00">
+                Published: Tue 19 October 2010
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/steve.html">Steve</a>
+        </address>
+<p>In <a href="/category/meetingnotes.html">MeetingNotes</a>.</p>
+<p>tags: <a href="/tag/meetingnotes.html">MeetingNotes</a> </p>
+</footer><!-- /.post-info -->      <p>The attendees of tonight's meeting had been working with Django and the
+talks centered around some cool features and extensions.</p>
+<ul class="simple">
+<li><strong>`django-command-extensions &lt;http://code.google.com/p/django-command-extensions/&gt;`__</strong>
+- &quot;This is a repository for collecting global custom management
+extensions for the Django Framework.&quot;&nbsp; Of particular interest was the
+<a class="reference external" href="http://code.google.com/p/django-command-extensions/wiki/GraphModels">graph_models</a>
+model which creates a GraphVis dot file (or an image) of your
+models.&nbsp; You can specify the whole project or specific apps.&nbsp; The
+code is
+<a class="reference external" href="http://github.com/django-extensions/django-extensions">here</a>.</li>
+<li><strong>&quot;`Databrowse &lt;http://docs.djangoproject.com/en/1.2/ref/contrib/databrowse/&gt;`__</strong>is
+a Django application that lets you browse your data.&nbsp; Databrowse
+dynamically creates a rich, browsable Web site by introspecting your
+models.&quot;&nbsp; This comes free with Django, and is similar to the admin
+interface, with the ability to click links to related tables to
+follow how the data is connected.</li>
+<li>We were discussing how to easily get test data into the Django models
+when building a project and needing to build, test, tear down, build,
+test... and came up with two items:<ul>
+<li>When your model is not changing much, Django comes with
+<strong>`Fixtures &lt;http://www.djangoproject.com/documentation/models/fixtures/&gt;`__</strong>.
+&quot;Fixtures are a way of loading data into the database in bulk.
+Fixture data can be stored in any serializable format (including
+JSON and XML).&quot;</li>
+<li>When you are just beginning and have a sample set of data, and
+need to build a model, test it, throw it away, create another
+model, and loading the data each time, Jeff suggested using the
+&quot;<a class="reference external" href="http://docs.djangoproject.com/en/1.2/howto/custom-management-commands/">writing custom django-admin
+commands</a>&quot;
+feature to write your own Django manage.py code.&nbsp; Then you only
+have to tweak this to fit the new model and run to import.&nbsp; This
+gives a place to put code when it doesn't belong in the finished
+app.</li>
+</ul>
+</li>
+<li><a class="reference external" href="http://hginit.com/">Mercurial</a>was suggested as a nice start to
+version control, especially for Windows users.&nbsp; Jeff explained how
+committing small updates and documenting them helps in several ways:<ul>
+<li>when a bug is noticed after several changes it is easy to unload
+each change and test to see where the problem is.</li>
+<li>you can try something &quot;crazy&quot; without much worry because it will
+be easy to revert to the previous version.</li>
+<li>easier to build and test changes before submitting them to a live
+project.</li>
+</ul>
+</li>
+</ul>
+<p>Panera's had good food and outlets near tables, but this particular
+location is pretty loud, not a good choice for the future in my
+opinion...</p>
+
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

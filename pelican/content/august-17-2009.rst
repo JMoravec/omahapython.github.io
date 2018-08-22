@@ -1,0 +1,42 @@
+August-17-2009
+##############
+:date: 2009-08-17 23:47
+:author: admin
+:category: MeetingNotes
+:tags: MeetingNotes
+:slug: august-17-2009
+:status: published
+
+.. raw:: html
+
+   <div id="_mcePaste">
+
+Tonights meeting was a cornucopia of random topics.
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+-  2.4/2.5/2.6/3.0/3.1 - Which should I target?
+
+   -  2.6/3.1 `What's
+      new <http://docs.python.org/3.1/whatsnew/2.6.html>`__
+   -  `MySQL for Python and
+      3.x <http://sourceforge.net/projects/mysql-python/>`__
+
+-  `Planet Python <http://planet.python.org/>`__ an RSS feed that has
+   excellent Python related information
+-  `Griffon <http://docs.codehaus.org/display/GROOVY/Griffon>`__ v.
+   `Camelot <http://www.conceptive.be/projects/camelot/>`__
+-  `Dabo <http://dabodev.com/>`__
+-  `Buildout <http://www.python.org/pypi/zc.buildout>`__
+-  `virtualenv <http://pypi.python.org/pypi/virtualenv>`__
+-  `ctypes <http://docs.python.org/library/ctypes.html>`__
+
+.. raw:: html
+
+   </div>
