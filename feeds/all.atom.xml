@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Omaha Python Users Group (OPUG)</title><link href="https://omahapython.github.io/" rel="alternate"></link><link href="https://omahapython.github.io/feeds/all.atom.xml" rel="self"></link><id>https://omahapython.github.io/</id><updated>2018-08-24T00:00:00-05:00</updated><entry><title>Hello World</title><link href="https://omahapython.github.io/hello-world.html" rel="alternate"></link><published>2018-08-24T00:00:00-05:00</published><updated>2018-08-24T00:00:00-05:00</updated><author><name>Omaha Python Users</name></author><id>tag:omahapython.github.io,2018-08-24:/hello-world.html</id><summary type="html">&lt;p&gt;Hello&amp;nbsp;World!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hello&amp;nbsp;World!&lt;/p&gt;</content></entry><entry><title>Deploying a Python Web Application</title><link href="https://omahapython.github.io/deploying-a-python-web-application.html" rel="alternate"></link><published>2018-08-23T00:00:00-05:00</published><updated>2018-08-23T00:00:00-05:00</updated><author><name>Omaha Python Users</name></author><id>tag:omahapython.github.io,2018-08-23:/deploying-a-python-web-application.html</id><summary type="html">&lt;p&gt;Tutorial on deploying a Django application to Python Anywhere and&amp;nbsp;Heroku&lt;/p&gt;</summary><content type="html">&lt;p&gt;At the August meeting, George Royce gave a demo on how to deploy a Djanjo application to &lt;a href="https://www.pythonanywhere.com/"&gt;Python Anywhere&lt;/a&gt; as well as &lt;a href="https://www.heroku.com/"&gt;Heroku&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are the notes from the demo (taken from &lt;a href="https://docs.google.com/document/d/1yBW91iNOGSvqM8JLeFH6IhXt_98I-GKkPlXYDb4M3EY/edit"&gt;this&lt;/a&gt;):&lt;/p&gt;
+&lt;h3&gt;Python&amp;nbsp;Anywhere&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://roycesite.com/george/media/DeployDjangoPA/DeployDjangoPA.html"&gt;Video Tutorial&lt;/a&gt;
+&lt;a href="https://docs.google.com/document/d/1hbzr7bqp3ylmqDSgM7adEqi06ttSVsDLsPuwas9QLQ0/edit"&gt;Written&amp;nbsp;Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Heroku&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://roycesite.com/george/media/deploy2herokuv2/deploy2herokuv2.html"&gt;Video Tutorial&lt;/a&gt;
+&lt;a href="https://drive.google.com/file/d/1Eocf7QGXIMoFY4_NwaeG_vmC0kxmGWFw/view"&gt;Written Tutorial&lt;/a&gt;
+&lt;a href="https://drive.google.com/file/d/1d-4E2KhJTEfjQu8uJIhihYbPXoKWTcWC/view"&gt;Template Files&lt;/a&gt;
+&lt;a href="https://docs.google.com/document/d/1tjzxzBfTitTL7iZ0eBWJOqK_I8A6cqZNDyXvBtQ4y4I/edit"&gt;Troubleshooting Common&amp;nbsp;Errors&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Email&amp;nbsp;Options&lt;/h3&gt;
+&lt;h4&gt;Python&amp;nbsp;Anywhere&lt;/h4&gt;
+&lt;p&gt;Allows use of Gmail &lt;span class="caps"&gt;SMTP&lt;/span&gt; for free users.  They also mention Mailgun and Sendgrid. Note, it is best to set up a new gmail account for this since allowing your account to connect via &lt;span class="caps"&gt;SMTP&lt;/span&gt; is a risk. &lt;a href="https://help.pythonanywhere.com/pages/SMTPForFreeUsers/"&gt;Details&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Heroku&lt;/h4&gt;
+&lt;p&gt;Typically Heroku does not allow Gmail. They suggest using Sendgrid which has a free account tier. &lt;a href="https://elements.heroku.com/addons/sendgrid"&gt;Details&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Providers&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://sendgrid.com/"&gt;SendGrid&lt;/a&gt;
+&lt;a href="https://mailtrap.io/"&gt;mailtrap&lt;/a&gt;
+&lt;a href="https://www.mailgun.com/"&gt;mailgun&lt;/a&gt;&lt;/p&gt;</content><category term="Tutorial"></category></entry></feed>
